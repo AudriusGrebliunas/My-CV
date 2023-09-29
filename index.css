@@ -1,0 +1,150 @@
+*{
+    transition: 0.5s;
+}
+
+
+h1{
+    padding-left: 15px;
+    line-height: 130%;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 100px 300px;
+    grid-template-columns: 100px 100px;
+}
+
+body {
+    background-color: #eeece5;
+    font-family: 'Martian Mono';
+}
+
+body {
+    color: #192120;
+}
+
+.item {
+    border: 1px solid black;
+    font-size: xx-small;
+}
+
+body {
+    padding: 20px;
+}
+
+.infos {
+    padding-left: 30px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.desc,
+h3 {
+    padding-left: 15px;
+
+}
+
+.svg {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-auto-rows: 50px;
+    padding-left: 15px;
+}
+
+i {
+    font-size: 30px;
+
+}
+
+.experiences {
+    display: grid;
+    grid-template-rows: 100px;
+    line-height: 50%;
+    padding-left: 15px;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    line-height: 100%;
+}
+
+.infos{
+    margin-top: 21.44px;
+    font-weight: 90;
+    font-size: 15px;
+    padding-left: 30px;
+
+}
+
+.infos>* {
+    margin: 10px;
+}
+
+.hobbies {
+    padding-left: 15px;
+}
+
+@media (max-width: 991px){
+    .experiences{
+        grid-template-rows: 150px 150px 150px;
+        line-height: 100%;
+    }
+    
+}
+
+
+@media (min-width: 992px ){
+   
+      h1{
+        font-size: 50px;
+      }
+      h3{
+        font-size: 25.01px;
+      }
+      p{
+        font-size:17.69px;
+      }
+      .infos{
+        margin-top: 33px;
+      }
+      .svg {
+        display: grid;
+        grid-template-columns: 130px 130px 130px;
+        
+        padding-left: 15px;
+        margin-top: 50px;
+        grid-auto-rows: 150px;
+    }
+    
+    i{
+        font-size: 40px;
+    }
+    section{
+        margin-top: 40px;
+    }
+    .skillsexperiences{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .Experiences{
+        grid-column: 2/3;
+        grid-row: 1;
+        
+
+    }
+   
+    .Hobbies{
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+}
+
